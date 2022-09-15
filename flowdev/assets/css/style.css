@@ -1,0 +1,1156 @@
+
+
+body{
+    padding: 0;
+    margin: 0;
+    color: white;
+    z-index: 0;
+    background-color: #fff;
+    transition: 1s;
+
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff; 
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #006cea;;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #006cea;; 
+}
+
+.homepage-background{
+  width: 100%;
+  background-repeat: no-repeat;
+  z-index: 100;
+  transition: 1s;
+}
+
+.button{
+  width: 3%;
+  float: left;
+  margin-top: 2%;
+  margin-left: 2%;
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+}
+
+#menu{
+  font-family: 'Catamaran', sans-serif;
+  background-color:rgba(0, 108, 234, 0.6);
+  height:100vh;
+  position: fixed; 
+    display: none;
+    width: 100%; 
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2; 
+    transition: 1s;
+    text-align: center;
+}
+
+.menu-button-class{
+  opacity: 1;
+  width: 2%;
+  float: left;
+  margin-top: 2%;
+  margin-left: 44%;
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.menu-links{
+  margin-left: 4%;
+  margin-top: 19%;
+  font-family: 'Catamaran', sans-serif;
+}
+
+.menu-links li{
+  list-style: none;
+  padding: 10px;
+  font-size: 35px;
+}
+
+.menu-links a{
+  color: white;
+  font-family: 'Catamaran', sans-serif;
+  text-decoration: none;
+}
+
+.menu-links li:hover a{
+  color: #e3e3e3;
+}
+
+.flowdev-logo{
+  position: absolute;
+  width: 95%;
+  z-index: 0;
+}
+
+.colours{
+  position: absolute;
+  margin-top: 24%;
+  color: black;
+  width: 50%;
+  margin-left: 5%;
+}
+
+.colours-title{
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: -4%;
+}
+
+.colours-text{
+  font-family: 'Catamaran', sans-serif;
+  font-size: 1.2em;
+}
+
+.colours-box-1{
+  padding: 5vh 1.5vh 0vh 8vh;
+  float: left;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  transition: 1s;
+}
+
+.colours-box-2{
+  padding: 5vh 1.5vh 0vh 8vh;
+  float: left;
+  transition: 1s;
+}
+
+.colours-box-3{
+  padding: 5vh 1.5vh 0vh 8vh;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  float: left;
+  transition: 1s;
+}
+
+.colours-box-1:hover {
+  padding: 5vh 3.5vh 0vh 10vh;
+  transition: 1s;
+}
+
+.colours-box-2:hover {
+  padding: 5vh 3.5vh 0vh 10vh;
+  transition: 1s;
+}
+
+.colours-box-3:hover {
+  padding: 5vh 3.5vh 0vh 10vh;
+  transition: 1s;
+}
+
+.photo-description{
+  width: 50%;
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 7%;
+}
+
+.photo-description img{
+  border-radius: 5px 0px 0px 5px;
+  width: 100%;
+  height: 21.6vh;
+}
+
+
+.photo-description-box{
+  width: 45%;
+  float: left;
+  padding: 2%;
+  background-color: white;
+  border-radius: 5px;
+  margin: -1%;
+  color: black;
+}
+
+.photo-description h1{
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: -7%;
+  color: black;
+}
+
+.photo-description p{
+  font-family: 'Catamaran', sans-serif;
+  color: black;
+}
+
+.full-image{
+  position: absolute;
+  margin-top: 3%;
+  margin-left: 60%;
+}
+
+.full-image img{
+  width: 80%;
+  border-radius: 5px;
+  margin-bottom: 2%;
+}
+
+.full-website{
+  position: absolute;
+  margin-top: 48%;
+  color: black;
+  width: 50%;
+  margin-left: 3%;
+  text-align: center;
+}
+
+.full-website a{
+  text-decoration: none;
+  padding: 3% 33.5% 3% 33.5%;
+  border-radius: 5px;
+  border: 5px solid #18a0f4;
+  transition: 0.5s;
+  color: #18a0f4;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 35px;
+}
+
+.full-website a:hover{
+  transition: 0.5s;
+  background-color: #18a0f4;
+  color: white;
+}
+
+.portfolio{
+  width: 85%;
+  margin-left: 9%;
+  position: absolute;
+  margin-top: 10%;
+
+}
+
+.portfolio-box {
+    position: relative;
+    width: 45%;
+    float: left;
+    margin: 2%;
+    border-radius: 7px;
+}
+
+.portfolio-box img{
+  border-radius: 7px;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 40%;
+  left: 3%;
+  text-align: center;
+}
+.portfolio-box:hover .image {
+  opacity: 0.5;
+}
+
+.portfolio-box:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  text-decoration: none;
+  padding: 3% 10% 3% 10%;
+  width: 180%;
+  border-radius: 5px;
+  border: 5px solid white;
+  transition: 0.5s;
+  color: white;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 35px;
+}
+
+.portfolio-box a{
+  color: black;
+  text-decoration: none;
+}
+
+.text:hover{
+  background-color: white;
+  color: black;
+}
+
+.store{
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 15%;
+
+}
+
+.store-box{
+  width: 25%;
+  float: left;
+  color: black;
+  background-color: #dadada;
+  margin: 1%;
+  border-radius: 10px;
+}
+
+.store-box img{
+  width: 100%;
+  z-index: 0;
+  margin-top: 0%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+
+}
+
+.store-box-discount{
+  z-index: 5;
+  background-color: #006cea;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  width:5%;
+  padding-left: 1%;
+  padding-right: 0.5%;
+  margin-left: 1%;
+  height: 8%;
+  font-family: 'Oswald', sans-serif;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: white;
+  margin-bottom: -5%;
+  position: absolute;
+}
+
+.store-box-discount p{
+  padding-top: -2%;
+  margin-top: -1.5%;
+}
+
+.store-box-title{
+  font-family: 'Oswald', sans-serif;
+  width: 85%;
+  font-size: 35px;
+  padding: -5%;
+  margin: -15%;
+  text-align: center;
+  margin-left: 7%;
+}
+.store-box-title p{
+  margin-bottom: 17%; 
+}
+
+.store-box-price{
+  margin-top: 0%;
+  margin-left: 7%;
+  border-top: 1px solid #b0b0b0;
+}
+
+.store-box-price strike{
+  color: #b0b0b0;
+  font-family: 'Catamaran', sans-serif;
+  margin-right: 2%;
+}
+
+.store-box-price p{
+  color: #101010;
+  margin-top: -0.5%;
+  font-family: 'Oswald', sans-serif;
+}
+
+.store-box-buy{
+  float:left;
+  margin-top: -14%;
+  margin-left: 70%;
+  cursor: pointer;
+  text-decoration: rtl;
+}
+
+.store-box-buy button{
+  border: none;
+  background-color: #006cea;
+  width: 140%;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  padding: 15%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .homepage-background{
+  width: 100%;
+  background-repeat: no-repeat;
+  z-index: 100;
+  transition: 1s;
+}
+
+.button{
+  width: 3%;
+  float: left;
+  margin-top: 2%;
+  margin-left: 2%;
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+}
+
+#menu{
+  font-family: 'Catamaran', sans-serif;
+  background-color:rgba(0, 108, 234, 0.6);
+  height:100vh;
+  position: fixed; 
+    display: none;
+    width: 100%; 
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2; 
+    transition: 1s;
+    text-align: center;
+}
+
+.menu-button-class{
+  opacity: 1;
+  width: 2%;
+  float: left;
+  margin-top: 2%;
+  margin-left: 44%;
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.menu-links{
+  margin-left: 4%;
+  margin-top: 19%;
+  font-family: 'Catamaran', sans-serif;
+}
+
+.menu-links li{
+  list-style: none;
+  padding: 10px;
+  font-size: 35px;
+}
+
+.menu-links a{
+  color: white;
+  font-family: 'Catamaran', sans-serif;
+  text-decoration: none;
+}
+
+.menu-links li:hover a{
+  color: #e3e3e3;
+}
+
+.flowdev-logo{
+  position: absolute;
+  width: 95%;
+  z-index: 0;
+}
+
+.colours{
+  position: absolute;
+  margin-top: 35%;
+  color: black;
+  width: 70%;
+  margin-left: 20%;
+}
+
+.colours-title{
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: -3%;
+}
+
+.colours-text{
+  font-family: 'Catamaran', sans-serif;
+  font-size: 1.2em;
+}
+
+.colours-box-1{
+  padding: 3% 1% 0% 8%;
+  float: left;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  transition: 1s;
+}
+
+.colours-box-2{
+  padding: 3% 1% 0% 8%;
+  float: left;
+  transition: 1s;
+}
+
+.colours-box-3{
+  padding: 3% 1% 0% 8%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  float: left;
+  transition: 1s;
+}
+
+.photo-description{
+  width: 72%;
+  position: absolute;
+  margin-left: 20%;
+  margin-top: 7%;
+}
+
+.photo-description img{
+  border-radius: 5px 0px 0px 5px;
+  height: 50%;
+}
+
+
+.photo-description-box{
+  width: 45%;
+  float: left;
+  padding: 2%;
+  background-color: white;
+  border-radius: 5px;
+  margin: -1%;
+  color: black;
+}
+
+.photo-description h1{
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: -7%;
+  color: black;
+}
+
+.photo-description p{
+  font-family: 'Catamaran', sans-serif;
+  color: black;
+}
+
+.full-image{
+  position: absolute;
+  margin-top: 65%;
+  margin-left: 23%;
+}
+
+.full-image img{
+  width: 70%;
+  border-radius: 5px;
+  margin-bottom: 2%;
+}
+
+.full-website{
+  position: absolute;
+  margin-top: 165%;
+  color: black;
+  width: 50%;
+  margin-bottom: 5%;
+  margin-left: 22%;
+  text-align: center;
+}
+
+.full-website a{
+  text-decoration: none;
+  padding: 3% 25% 3% 25%;
+  border-radius: 5px;
+  border: 5px solid #18a0f4;
+  transition: 0.5s;
+  color: #18a0f4;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 35px;
+}
+
+.full-website a:hover{
+  transition: 0.5s;
+  background-color: #18a0f4;
+  color: white;
+}
+
+.portfolio{
+  width: 85%;
+  margin-left: 9%;
+  position: absolute;
+  margin-top: 10%;
+
+}
+
+.portfolio-box {
+    position: relative;
+    width: 45%;
+    float: left;
+    margin: 2%;
+    border-radius: 7px;
+}
+
+.portfolio-box img{
+  border-radius: 7px;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 40%;
+  left: 3%;
+  text-align: center;
+}
+.portfolio-box:hover .image {
+  opacity: 0.5;
+}
+
+.portfolio-box:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  text-decoration: none;
+  padding: 3% 10% 3% 10%;
+  width: 180%;
+  border-radius: 5px;
+  border: 5px solid white;
+  transition: 0.5s;
+  color: white;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 35px;
+}
+
+.portfolio-box a{
+  color: black;
+  text-decoration: none;
+}
+
+.text:hover{
+  background-color: white;
+  color: black;
+}
+}
+
+@media only screen and (max-width: 768px) {
+    .homepage-background{
+  width: 100%;
+  background-repeat: no-repeat;
+  z-index: 100;
+  transition: 1s;
+}
+
+.button{
+  width: 3%;
+  float: left;
+  margin-top: 2%;
+  margin-left: 2%;
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+}
+
+#menu{
+  font-family: 'Catamaran', sans-serif;
+  background-color:rgba(0, 108, 234, 0.6);
+  height:100vh;
+  position: fixed; 
+    display: none;
+    width: 100%; 
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2; 
+    transition: 1s;
+    text-align: center;
+}
+
+.menu-button-class{
+  opacity: 1;
+  width: 2%;
+  float: left;
+  margin-top: 2%;
+  margin-left: 44%;
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.menu-links{
+  margin-left: 4%;
+  margin-top: 19%;
+  font-family: 'Catamaran', sans-serif;
+}
+
+.menu-links li{
+  list-style: none;
+  padding: 10px;
+  font-size: 35px;
+}
+
+.menu-links a{
+  color: white;
+  font-family: 'Catamaran', sans-serif;
+  text-decoration: none;
+}
+
+.menu-links li:hover a{
+  color: #e3e3e3;
+}
+
+.flowdev-logo{
+  position: absolute;
+  width: 95%;
+  z-index: 0;
+}
+
+.colours{
+  position: absolute;
+  margin-top: 35%;
+  color: black;
+  width: 70%;
+  margin-left: 20%;
+}
+
+.colours-title{
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: -3%;
+}
+
+.colours-text{
+  font-family: 'Catamaran', sans-serif;
+  font-size: 1.2em;
+}
+
+.colours-box-1{
+  padding: 3% 1% 0% 8%;
+  float: left;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  transition: 1s;
+}
+
+.colours-box-2{
+  padding: 3% 1% 0% 8%;
+  float: left;
+  transition: 1s;
+}
+
+.colours-box-3{
+  padding: 3% 1% 0% 8%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  float: left;
+  transition: 1s;
+}
+
+.photo-description{
+  width: 72%;
+  position: absolute;
+  margin-left: 20%;
+  margin-top: 7%;
+}
+
+.photo-description img{
+  border-radius: 5px 0px 0px 5px;
+  height: 50%;
+}
+
+
+.photo-description-box{
+  width: 45%;
+  float: left;
+  padding: 2%;
+  background-color: white;
+  border-radius: 5px;
+  margin: -1%;
+  color: black;
+}
+
+.photo-description h1{
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: -7%;
+  color: black;
+}
+
+.photo-description p{
+  font-family: 'Catamaran', sans-serif;
+  color: black;
+}
+
+.full-image{
+  position: absolute;
+  margin-top: 75%;
+  margin-left: 23%;
+}
+
+.full-image img{
+  width: 70%;
+  border-radius: 5px;
+  margin-bottom: 2%;
+}
+
+.full-website{
+  position: absolute;
+  margin-top: 175%;
+  color: black;
+  width: 50%;
+  margin-bottom: 5%;
+  margin-left: 24%;
+  text-align: center;
+}
+
+.full-website a{
+  text-decoration: none;
+  padding: 3% 25% 3% 25%;
+  border-radius: 5px;
+  border: 5px solid #18a0f4;
+  transition: 0.5s;
+  color: #18a0f4;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 35px;
+}
+
+.full-website a:hover{
+  transition: 0.5s;
+  background-color: #18a0f4;
+  color: white;
+}
+
+.portfolio{
+  width: 85%;
+  margin-left: 9%;
+  position: absolute;
+  margin-top: 10%;
+
+}
+
+.portfolio-box {
+    position: relative;
+    width: 45%;
+    float: left;
+    margin: 2%;
+    border-radius: 7px;
+}
+
+.portfolio-box img{
+  border-radius: 7px;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 40%;
+  left: 3%;
+  text-align: center;
+}
+.portfolio-box:hover .image {
+  opacity: 0.5;
+}
+
+.portfolio-box:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  text-decoration: none;
+  padding: 3% 10% 3% 10%;
+  width: 180%;
+  border-radius: 5px;
+  border: 5px solid white;
+  transition: 0.5s;
+  color: white;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 35px;
+}
+
+.portfolio-box a{
+  color: black;
+  text-decoration: none;
+}
+
+.text:hover{
+  background-color: white;
+  color: black;
+}
+}
+
+@media only screen and (max-width: 414px) {
+    .homepage-background{
+  width: 100%;
+  background-repeat: no-repeat;
+  z-index: 100;
+  transition: 1s;
+}
+
+.button{
+  width: 6%;
+  float: left;
+  margin-top: 2%;
+  margin-left: 2%;
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+}
+
+#menu{
+  font-family: 'Catamaran', sans-serif;
+  background-color:rgba(0, 108, 234, 0.6);
+  height:100vh;
+  position: fixed; 
+    display: none;
+    width: 100%; 
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2; 
+    transition: 1s;
+    text-align: center;
+}
+
+.menu-button-class{
+  opacity: 1;
+  width: 4%;
+  float: left;
+  margin-top: 2%;
+  margin-left: 44%;
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.menu-links{
+  margin-left: 4%;
+  margin-top: 19%;
+  font-family: 'Catamaran', sans-serif;
+}
+
+.menu-links li{
+  list-style: none;
+  padding: 10px;
+  font-size: 35px;
+}
+
+.menu-links a{
+  color: white;
+  font-family: 'Catamaran', sans-serif;
+  text-decoration: none;
+}
+
+.menu-links li:hover a{
+  color: #e3e3e3;
+}
+
+.flowdev-logo{
+  position: absolute;
+  width: 95%;
+  z-index: 0;
+}
+
+.colours{
+  display: none;
+}
+
+.colours-title{
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: -3%;
+  font-size: 10px;
+}
+
+.colours-text{
+  font-family: 'Catamaran', sans-serif;
+  font-size: 1.2em;
+}
+
+.colours-box-1{
+  padding: 3% 1% 0% 5%;
+  float: left;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  transition: 1s;
+  font-size: 8px;
+}
+
+.colours-box-2{
+  padding: 3% 1% 0% 5%;
+  float: left;
+  transition: 1s;
+  font-size: 8px;
+}
+
+.colours-box-3{
+  padding: 3% 1% 0% 5%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  float: left;
+  transition: 1s;
+  font-size: 8px;
+}
+
+.photo-description{
+  width: 72%;
+  position: absolute;
+  margin-left: 22%;
+  margin-top: 7%;
+}
+
+.photo-description img{
+  border-radius: 5px 0px 0px 5px;
+  height: 50%;
+}
+
+
+.photo-description-box{
+  width: 80%;
+  float: left;
+  padding: 2%;
+  background-color: white;
+  border-radius: 5px;
+  margin: -1%;
+  color: black;
+}
+
+.photo-description h1{
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: -7%;
+  color: black;
+  font-size: 15px;
+}
+
+.photo-description p{
+  font-family: 'Catamaran', sans-serif;
+  color: black;
+  font-size: 12px;
+}
+
+.full-image{
+  position: absolute;
+  margin-top: 75%;
+  margin-left: 23%;
+}
+
+.full-image img{
+  width: 70%;
+  border-radius: 5px;
+  margin-bottom: 2%;
+}
+
+.full-website{
+  position: absolute;
+  margin-top: 175%;
+  color: black;
+  width: 50%;
+  margin-bottom: 5%;
+  margin-left: 24%;
+  text-align: center;
+}
+
+.full-website a{
+  text-decoration: none;
+  padding: 3% 25% 3% 25%;
+  border-radius: 5px;
+  border: 3px solid #18a0f4;
+  transition: 0.5s;
+  color: #18a0f4;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 15px;
+}
+
+.full-website a:hover{
+  transition: 0.5s;
+  background-color: #18a0f4;
+  color: white;
+}
+
+.portfolio{
+  width: 85%;
+  margin-left: 18%;
+  position: absolute;
+  margin-top: 10%;
+
+}
+
+.portfolio-box {
+    position: relative;
+    width: 75%;
+    float: left;
+    margin: 2%;
+    margin-bottom: 5%;
+    border-radius: 7px;
+}
+
+.portfolio-box img{
+  border-radius: 7px;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 40%;
+  left: 3%;
+  text-align: center;
+}
+.portfolio-box:hover .image {
+  opacity: 0.5;
+}
+
+.portfolio-box:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  text-decoration: none;
+  padding: 3% 10% 3% 10%;
+  width: 180%;
+  border-radius: 5px;
+  border: 5px solid white;
+  transition: 0.5s;
+  color: white;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 35px;
+}
+
+.portfolio-box a{
+  color: black;
+  text-decoration: none;
+}
+
+.text:hover{
+  background-color: white;
+  color: black;
+}
+}
